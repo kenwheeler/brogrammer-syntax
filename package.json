@@ -1,12 +1,16 @@
 {
   "name": "brogrammer-syntax",
   "theme": "syntax",
-  "version": "1.0.0",
-  "private": true,
-  "description": "A short description of your theme",
-  "repository": "https://github.com/kenwheeler/brogrammer-syntax",
+  "version": "1.0.2",
+  "description": "A twice updated fork of the Brogrammer syntax theme for atom",
+  "repository": "https://github.com/apedley/brogrammer-syntax",
   "license": "MIT",
+  "keywords": [
+    "dark",
+    "flat",
+    "brogrammer"
+  ],
   "engines": {
-    "atom": ">0.50.0"
+    "atom": ">1.13.0"
   }
 }

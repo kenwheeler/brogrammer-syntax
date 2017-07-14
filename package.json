@@ -1,9 +1,9 @@
 {
-  "name": "brogrammer-syntax",
+  "name": "brogrammer-harder-syntax",
   "theme": "syntax",
-  "version": "1.0.2",
+  "version": "1.2.0",
   "description": "A twice updated fork of the Brogrammer syntax theme for atom",
-  "repository": "https://github.com/apedley/brogrammer-syntax",
+  "repository": "https://github.com/apedley/brogrammer-harder-syntax",
   "license": "MIT",
   "keywords": [
     "dark",

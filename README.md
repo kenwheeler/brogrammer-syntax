@@ -1,6 +1,6 @@
 # brogrammer-syntax theme
 
-Atom syntax theme to match the brogrammer-ui theme
+Atom syntax theme to match the brogrammer-harder-ui theme
 
 Preview:
 

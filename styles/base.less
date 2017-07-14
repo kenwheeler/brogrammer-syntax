@@ -5,12 +5,12 @@
 @import "ui-variables";
 @import "colors";
 
-atom-text-editor, :host {
+atom-text-editor {
   background-color: @base03;
   color: @base0;
 }
 
-atom-text-editor, :host {
+atom-text-editor {
   .invisible-character,
   .indent-guide {
     color: @base01;
@@ -45,78 +45,78 @@ atom-text-editor, :host {
   }
 }
 
-.bracket-matcher .region {
+.syntax--bracket-matcher .syntax--region {
   background-color: @base1;
   opacity: 0.7;
 }
 
-.comment {
+.syntax--comment {
   color: @base05;
   font-style: italic;
 }
 
-.entity {
+.syntax--entity {
   color: @green;
 }
 
-.keyword {
+.syntax--keyword {
   color: @red;
 }
 
-.any-method {
+.syntax--any-method {
   color: @blue;
 }
 
-.storage.type {
+.syntax--storage.syntax--type {
   color: @blue;
 }
 
-.storage.modifier {
+.syntax--storage.syntax--modifier {
   color: @red;
 }
 
-.constant {
+.syntax--constant {
   color: @violet;
 
-  &.numeric,
-  &.boolean {
+  &.syntax--numeric,
+  &.syntax--boolean {
     color: @green;
   }
 }
 
-.variable {
+.syntax--variable {
   color: #fff;
 }
 
-.delimiter, .brace {
+.syntax--delimiter, .syntax--brace {
   color: @base0;
 }
 
-.delimiter.period {
+.syntax--delimiter.syntax--period {
   color: @green;
 }
 
-.invalid.deprecated {
+.syntax--invalid.syntax--deprecated {
   text-decoration: underline;
   color: @red;
 }
 
-.invalid.illegal {
+.syntax--invalid.syntax--illegal {
   color: @red;
 }
 
-.string {
+.syntax--string {
   color: @yellow;
 
-  .constant.character.escape {
+  .syntax--constant.syntax--character.syntax--escape {
     color: @red;
   }
 
-  &.regexp {
+  &.syntax--regexp {
     color: @blue;
 
-    .source.ruby.embedded,
-    .string.regexp.arbitrary-repitition {
+    .syntax--source.syntax--ruby.syntax--embedded,
+    .syntax--string.syntax--regexp.syntax--arbitrary-repitition {
       color: @red;
     }
   }

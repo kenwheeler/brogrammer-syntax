@@ -13,7 +13,7 @@ atom-text-editor, :host {
 atom-text-editor, :host {
   .invisible-character,
   .indent-guide {
-    color: @base01;
+    color: @red;
   }
 
   .gutter {
@@ -35,13 +35,13 @@ atom-text-editor, :host {
   }
 
   .selection .region {
-    background-color: @base02;
+    background-color: @base05;
     color: @base03;
   }
 
   .line-number.cursor-line-no-selection {
-    background-color: @base01;
-    color: white;
+    background-color: @red;
+    color: #fff;
   }
 }
 
@@ -51,7 +51,7 @@ atom-text-editor, :host {
 }
 
 .comment {
-  color: @base05;
+  color: @base06;
   font-style: italic;
 }
 
@@ -59,12 +59,24 @@ atom-text-editor, :host {
   color: @green;
 }
 
+.function {
+  color: @blue;
+
+  &.name {
+    color: @green;
+  }
+}
+
+.name {
+  color: @orange;
+}
+
 .keyword {
   color: @red;
 }
 
 .any-method {
-  color: @blue;
+  color: @green;
 }
 
 .storage.type {
@@ -85,11 +97,22 @@ atom-text-editor, :host {
 }
 
 .variable {
-  color: #fff;
+  color: @orange;
+
+  &.other {
+    color: #fff;
+  }
+  &.object {
+    color: @orange;
+  }
 }
 
 .delimiter, .brace {
   color: @base0;
+}
+
+.wrap-guide {
+    color: @base02;
 }
 
 .delimiter.period {
